@@ -1,0 +1,16 @@
+# Core data analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Plotting & visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter notebooks
+jupyterlab>=4.0.0
+notebook>=7.0.0
+ipykernel>=6.0.0
+
+# Optional: stats and regressions
+scipy>=1.10.0
+statsmodels>=0.14.0

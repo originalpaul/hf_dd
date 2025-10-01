@@ -1,0 +1,19 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# notebooks
+.ipynb_checkpoints/
+
+# os/editor
+.DS_Store
+.vscode/
+.idea/
+
+# outputs
+outputs/*.png
+outputs/*.pdf
+outputs/*.html
+outputs/tables/*.csv
