@@ -14,3 +14,6 @@ ipykernel>=6.0.0
 # Optional: stats and regressions
 scipy>=1.10.0
 statsmodels>=0.14.0
+ 
+# DOCX parsing
+python-docx>=1.1.0
