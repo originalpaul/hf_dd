@@ -13,7 +13,11 @@ __pycache__/
 .idea/
 
 # outputs
-outputs/*.png
-outputs/*.pdf
-outputs/*.html
-outputs/tables/*.csv
+#outputs/*.png
+#outputs/*.pdf
+#outputs/*.html
+#outputs/tables/*.csv
+
+dist/
+build/
+*.egg-info/
