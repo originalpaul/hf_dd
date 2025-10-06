@@ -363,10 +363,3 @@ def summary_table(
 
     return pd.DataFrame(out).T
 
-# ------------------------------
-# Example usage (comment out in production)
-# ------------------------------
-# if __name__ == "__main__":
-#     data = pd.read_csv("../data/fund_returns_clean.csv", parse_dates=["Date"]).set_index("Date")
-#     table = summary_table(data[["Fund 1", "Fund 2", "Fund 3", "S&P 500 w/ Div"]], bench_col="S&P 500 w/ Div", rf=0.02)
-#     print(table.round(4))
